@@ -21,6 +21,7 @@ import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
 import Sys;
+import flixel.util.FlxTimer;
 
 using StringTools;
 
@@ -30,7 +31,7 @@ class MainMenuState extends MusicBeatState
 
 	public static var slushiEngineVersion:String = '0.0.3';
 	private static var sleBuild = Sys.systemName();
-	public static var updateComment:String = 'better handling of NotITG-type modcharts' ;
+	public static var updateComment:String = 'Android version?' ;
 
 	public static var curSelected:Int = 0;
 
